@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CariController.cs" />
     <Compile Include="Controllers\DepartmanController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KategoriController.cs" />
@@ -153,6 +154,14 @@
     <Compile Include="Migrations\202403191517242_SatisHareketGuncellemesi.cs" />
     <Compile Include="Migrations\202403191517242_SatisHareketGuncellemesi.designer.cs">
       <DependentUpon>202403191517242_SatisHareketGuncellemesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403211150323_CariDurum.cs" />
+    <Compile Include="Migrations\202403211150323_CariDurum.designer.cs">
+      <DependentUpon>202403211150323_CariDurum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403211206375_CarilerDA.cs" />
+    <Compile Include="Migrations\202403211206375_CarilerDA.designer.cs">
+      <DependentUpon>202403211206375_CarilerDA.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Siniflar\Admin.cs" />
@@ -250,6 +259,10 @@
     <Content Include="Views\Departman\DepartmanGetir.cshtml" />
     <Content Include="Views\Departman\DepartmanDetay.cshtml" />
     <Content Include="Views\Departman\DepartmanPersonelSatis.cshtml" />
+    <Content Include="Views\Cari\Index.cshtml" />
+    <Content Include="Views\Cari\YeniCari.cshtml" />
+    <Content Include="Views\Cari\CariGetir.cshtml" />
+    <Content Include="Views\Cari\MusteriSatis.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -296,6 +309,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202403191517242_SatisHareketGuncellemesi.resx">
       <DependentUpon>202403191517242_SatisHareketGuncellemesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403211150323_CariDurum.resx">
+      <DependentUpon>202403211150323_CariDurum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403211206375_CarilerDA.resx">
+      <DependentUpon>202403211206375_CarilerDA.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
